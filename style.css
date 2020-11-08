@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maxwit{
+    max-width: 1000px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+
+  /*manu*/
+
+.main-manu{
+    background-color:#32ff7e ;
+}
+.manu-lift{
+    width: 30%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+img{
+    padding: 6px 15px;
+    margin: auto;
+    height: ato;
+    width: 230px;
+}
+.manu-right{
+    width: 70%;
+    height:auto;
+    float: right;
+    text-align: center;
+
+}
+.manu-right .ul1{
+    margin:auto;
+    
+}
+.manu-right .ul1 li{
+    display: inline-block;
+     
+}
+.manu-right .ul1 li a{
+    display: inline-block;
+    padding: 25px 20px;
+    font-size: 25px;
+    color:black;
+    border-right: 1px solid black;
+    line-height: 35px;
+    text-decoration: none;
+    margin-left: -4px;
+    transition: .4s;
+}
+
+.manu-right .ul1 li a:hover{
+    background-color:#149441 ;
+}
+
+
+/*Baground part*/
+
+.bgc{
+    background-image: url(https://previews.123rf.com/images/rawpixel/rawpixel1603/rawpixel160315065/53713285-computer-laptop-research-working-desk-concept.jpg);
+    width: auto;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+.bgc h1{
+    display: inline-block;
+    background-color:#45b86d ;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.bgc h2{
+    text-align: center;
+    background-color:#41945e ;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+/* foter*/
+.main-foter{
+    
+}
+.foter-top{
+    width: 450px;
+    height: auto;
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.foter-top h2{
+    text-align: center;
+    font-size: 30px;
+}
+.foter-top p{
+    text-align: center;
+    font-size: 18px;
+}
+.foter-botom{
+    width: 30%;
+    height: auto;
+    float: left;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top:35px ;
+    margin-left: 15px;
+}
+.foter-botom .fab{
+    font-size: 40px;
+    background-color:#45b86d ;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+
+/*contanar*/
+.conenar1{
+    float: left;
+    margin-top: 20px;
+    width: 75%;
+    height: auto;
+}
+.conenar1 img{
+    float: left;
+}
+.contanar2{}
+.contenar3{}
+
+.notos{
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+}
+
+.notos h2{
+    border: 1px solid #ddd;
+    font-size: 26px;
+    text-align: center;
+}
+.notos .ul2{}
+.notos .ul2 li{
+    list-style: none;
+    font-size: 24px;
+    border: 1px solid #ddd;
+    
+    text-align: center;
+    padding: 9px 10px;
+    transition: .4s;
+}
+
+.notos .ul2 li:hover{
+    background-color: #ddd;
+}
+
+  /*lastcome*/
+
+  .last55{
+    background-color: dimgrey;
+  }
+  .text{
+      width: 60%;
+      height: auto;
+      float: left;
+      background-color: dimgrey;
+      font-size: 20px;
+  }
+  .text h2{}
+
+  .logo{ 
+      width: 40%;
+      height: auto;
+      float: right;
+      background-color: dimgrey;
+      color: #ddd;
+      font-size: 30px;
+
+  }
+
+
